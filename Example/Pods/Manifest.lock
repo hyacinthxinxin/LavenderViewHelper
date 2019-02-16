@@ -1,0 +1,16 @@
+PODS:
+  - LavenderViewHelper (0.1.0)
+
+DEPENDENCIES:
+  - LavenderViewHelper (from `../`)
+
+EXTERNAL SOURCES:
+  LavenderViewHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LavenderViewHelper: 40a86c89107bc2f29db44348614146bc2ab30bb1
+
+PODFILE CHECKSUM: 36d211fa556ee18da0d60942c1297576310ca4de
+
+COCOAPODS: 1.6.0

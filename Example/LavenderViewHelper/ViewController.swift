@@ -7,17 +7,20 @@
 //
 
 import UIKit
+import LavenderViewHelper
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+        let redView = UIView.redView
+        view.addSubview(redView)
+        redView.addShadowLayer(CGSize(width: 128, height: 128))
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let rf = LavenderRandomFactory.randomRF()
+        print(rf)
     }
 
 }
