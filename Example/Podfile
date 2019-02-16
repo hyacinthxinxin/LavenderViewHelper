@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LavenderViewHelper_Example' do
+  pod 'LavenderViewHelper', :path => '../'
+
+  target 'LavenderViewHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
