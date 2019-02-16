@@ -1,6 +1,0 @@
-framework module LavenderViewHelper {
-  umbrella header "LavenderViewHelper-umbrella.h"
-
-  export *
-  module * { export * }
-}
